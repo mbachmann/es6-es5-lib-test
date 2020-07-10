@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A small test project to show how to integrate ES5 and ES6 libraries to an ECMAScript 6 project.",
   "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
     "watch": "webpack --watch",
     "serve": "webpack-dev-server --mode=development --hot"
   },
@@ -22,7 +24,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "num-conv-string": "^1.0.9",
+    "num-conv-string": "^1.1.0",
     "webpack-library-starter": "^1.0.2"
   },
   "keywords": [

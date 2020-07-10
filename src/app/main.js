@@ -1,9 +1,9 @@
 import Point from './Point.js';
-import * as library from 'webpack-library-starter';
+import {Cat, Dog} from 'webpack-library-starter';
 import * as numConvString from '../../node_modules/num-conv-string/lib/num-conv-string.umd.min.js';
 
-const cat = new library.Cat();
-const dog = new library.Dog();
+const cat = new Cat();
+const dog = new Dog();
 
 var body = document.querySelector('body');
 body.innerHTML = 'Testing es6 internal classes and es6 and es5 external libraries:' +  '<br>' +  '<br>' +

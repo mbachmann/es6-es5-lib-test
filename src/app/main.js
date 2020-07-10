@@ -2,6 +2,7 @@ import Point from './Point.js';
 import {Cat, Dog} from 'webpack-library-starter';
 import * as numConvString from '../../node_modules/num-conv-string/lib/num-conv-string.umd.min.js';
 
+// from web-library-starter
 const cat = new Cat();
 const dog = new Dog();
 
